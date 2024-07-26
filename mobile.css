@@ -1,0 +1,91 @@
+@media(max-width: 1132px){
+    body{
+        white-space: wrap; 
+    }
+
+    .img-hug{
+        width: 200px;
+        left: 850px;
+    }
+
+    .ad-div{
+        
+    }
+
+    .ad-div-title{
+        left: -185px;
+        top: 22px;
+        white-space: nowrap;
+        font-size: 22px;
+    }
+
+    .commercial{
+        right: 650px;
+        bottom: 15px;
+    }
+
+}
+
+@media(max-width: 1120px){
+    .text-div{
+        border: none;
+    }
+}
+
+@media(max-width: 1052px){
+    .commercial{
+        font-size: 0;
+    }
+}
+
+@media(max-width: 1040px){
+    .img-hug{
+        width: 0;
+    }
+
+    .ad-div-title{
+        left: 255px;
+    }
+}
+
+@media(max-width: 500px){
+    .info-div{
+
+    }
+    .info-div-link{
+        font-size: 0;
+    }
+    .logo{
+        margin: auto;
+    }
+    .ad-div-title{
+        left: 8px;
+        white-space: wrap;
+        font-size: 17px;
+    }
+    .text{
+        font-size: 14px;
+        margin-left: 0;
+    }
+    .text-div{
+        padding-left: 3px;
+    }
+    .main-div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tutor-card{
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .tutor-img{
+        width: 200px;
+    }
+
+    .first{
+        margin-top: 20px;
+    }
+}
+
